@@ -28,4 +28,9 @@ platforms :mri_19, :mri_20 do
   group :mongoid do
     gem "mongoid", github: "mongoid/mongoid", branch: "master"
   end
+
+  group :dynamoid do
+    gem "dynamoid", github: "Veraticus/Dynamoid", branch: "master"
+    gem 'orm_adapter-dynamoid'
+  end
 end
