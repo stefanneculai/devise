@@ -10,12 +10,12 @@ GIT
 
 GIT
   remote: git://github.com/mongoid/mongoid.git
-  revision: fe7f43430580860db6d1d89cea27eda24ab60ab1
+  revision: c3da4971f7dbf7aefe894c4e50ab831be228f7a3
   branch: master
   specs:
     mongoid (4.0.0)
       activemodel (~> 4.0.0.rc1)
-      moped (~> 1.4.2)
+      moped (~> 1.4)
       origin (~> 1.0)
       tzinfo (~> 0.3.22)
 
@@ -25,6 +25,7 @@ PATH
     devise (3.0.0.rc)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
+      orm_adapter-dynamoid (= 0.0.1)
       railties (>= 3.2.6, < 5)
       warden (~> 1.2.1)
 
@@ -56,7 +57,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.0)
-    atomic (1.1.8)
+    atomic (1.1.9)
     aws-sdk (1.11.1)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
@@ -67,25 +68,26 @@ GEM
     faraday (0.8.7)
       multipart-post (~> 1.1)
     hashie (1.2.0)
-    hike (1.2.2)
+    hike (1.2.3)
     httpauth (0.2.0)
     i18n (0.6.4)
-    json (1.7.7)
+    json (1.8.0)
     jwt (0.1.8)
       multi_json (>= 1.5)
-    mail (2.5.3)
-      i18n (>= 0.4.0)
+    mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     metaclass (0.0.1)
     mime-types (1.23)
+    mini_portile (0.5.0)
     minitest (4.7.4)
     mocha (0.13.3)
       metaclass (~> 0.0.1)
-    moped (1.4.5)
-    multi_json (1.7.2)
+    moped (1.5.0)
+    multi_json (1.7.6)
     multipart-post (1.2.0)
-    nokogiri (1.5.9)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     oauth2 (0.8.1)
       faraday (~> 0.8)
       httpauth (~> 0.1)
@@ -132,7 +134,7 @@ GEM
     rdoc (4.0.1)
       json (~> 1.4)
     ruby-openid (2.2.3)
-    sprockets (2.9.3)
+    sprockets (2.10.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -145,8 +147,8 @@ GEM
     thor (0.18.1)
     thread_safe (0.1.0)
       atomic
-    tilt (1.4.0)
-    treetop (1.4.12)
+    tilt (1.4.1)
+    treetop (1.4.14)
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.37)

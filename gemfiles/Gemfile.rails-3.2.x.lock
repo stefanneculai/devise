@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/Veraticus/Dynamoid.git
+  revision: 227c67434302abf254df596c3ba16566fcfaed27
+  branch: master
+  specs:
+    dynamoid (0.6.1)
+      activemodel
+      aws-sdk
+      tzinfo
+
 PATH
   remote: ..
   specs:
@@ -38,6 +48,10 @@ GEM
       i18n (= 0.6.1)
       multi_json (~> 1.0)
     arel (3.0.2)
+    aws-sdk (1.11.1)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
+      uuidtools (~> 2.1)
     bcrypt-ruby (3.0.1)
     builder (3.0.4)
     erubis (2.7.0)
@@ -130,6 +144,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.37)
+    uuidtools (2.1.4)
     warden (1.2.1)
       rack (>= 1.0)
     webrat (0.7.3)
@@ -144,6 +159,7 @@ DEPENDENCIES
   activerecord-jdbc-adapter
   activerecord-jdbcsqlite3-adapter
   devise!
+  dynamoid!
   jruby-openssl
   mocha (~> 0.13.1)
   mongoid (~> 3.0)
@@ -151,6 +167,7 @@ DEPENDENCIES
   omniauth-facebook
   omniauth-oauth2 (~> 1.0.0)
   omniauth-openid (~> 1.0.1)
+  orm_adapter-dynamoid
   rails (~> 3.2.6)
   rdoc
   sqlite3
