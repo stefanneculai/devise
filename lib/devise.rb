@@ -2,6 +2,7 @@ require 'rails'
 require 'active_support/core_ext/numeric/time'
 require 'active_support/dependencies'
 require 'orm_adapter'
+require 'orm_adapter-dynamoid'
 require 'set'
 require 'securerandom'
 
